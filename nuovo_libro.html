@@ -99,6 +99,39 @@
               <div class="mb-3">
                 <small class="text-muted">Titolo versione italiana</small>
               </div>
+              <div class="row mb-4">
+                <div class="col-md-4 mb-3 mb-md-0">
+                  <label for="genere" class="form-label">Genere</label>
+                  <select class="form-select" id="genere">
+                    <option selected>Scegli il genere</option>
+                    <option>Romanzo</option>
+                    <option>Fantasy</option>
+                    <option>Giallo</option>
+                    <option>Altro</option>
+                  </select>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                  <label for="anno" class="form-label"
+                    >Anno di Pubblicazione</label
+                  >
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="anno"
+                    placeholder="Inserisci l'anno"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="isbn" class="form-label">ISBN#</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="isbn"
+                    placeholder="Inserisci il codice ISBN#"
+                    maxlength="13"
+                  />
+                </div>
+              </div>
             </form>
           </div>
         </div>
